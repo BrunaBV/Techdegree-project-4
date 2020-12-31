@@ -1,18 +1,41 @@
+/* Base Element Styles */
 
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
     color: Grey;
 }
 
 body {
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
     background-color: rgb(250, 250, 250);
 }
 
-.student-name {
-    color: #4c4c4c;
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
 }
 
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Base Layout Styles */
+
+.name {
+    color: #4c4c4c;
+    font-size: 1.25em;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+
+.main-nav {
+    margin-top: 0;
+}
 
 .profile-pic {
     margin: 100px;
@@ -22,3 +45,12 @@ body {
     text-align: center
 }
 
+
+/* Media Query */
+@media (min-width: 769px) {
+    .main-nav ul,
+    .nav {
+    display: inline-block;
+    }
+
+}
