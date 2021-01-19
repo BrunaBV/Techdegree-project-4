@@ -1,12 +1,13 @@
 /* Base Element Styles */
 
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', 'Helvetica', sans-serif;
-    background-color: #fafafa;
+    font-family: 'Poppins', 'Helvetica', 'Sofia', sans-serif;
+    background-color: #e0d7fa;
     text-align: center;
 }
 
@@ -21,7 +22,7 @@ p {
 
 a {
     text-decoration: none;  
-    color: #4a4a4a; 
+    color: rgb(109, 5, 109); 
 }
 
 ul li{
@@ -46,8 +47,9 @@ h2 {
 /* Base Layout Styles */
 
 #name {
-    color: #4c4c4c;
+    color: rgb(109, 5, 109);
     font-size: 1.765em;
+    font-family: Sofia;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -67,7 +69,7 @@ h2 {
 
 #description {
     line-height: 1.5em;
-    color: lightslategray;
+    color: purple;
     text-align: center;
     font-weight: 100;
     }
@@ -93,7 +95,7 @@ h2 {
  }
     
 a:hover {
-    color: lightgray;
+    color: rgb(214, 129, 207);
 }
 
 .ft-nav {
@@ -102,7 +104,7 @@ a:hover {
 
 #footer-name {
     position: absolute;
-    height: 20px;
+    height: 40px;
     padding: 10px;
     font-weight: 800;
     margin-top: 0px;
@@ -169,6 +171,7 @@ a:hover {
         padding: 0;
         margin-top: 30px;
         margin-left: 20px;
+        color: purple;
     }
         
     .ft-nav {
@@ -179,7 +182,8 @@ a:hover {
         margin-top: 10px;
         padding-left: 0px;
         margin-bottom: 0px;
-     }
+        width: 500px;
+    }
     
     #backtop {
         display: none;
@@ -216,6 +220,7 @@ a:hover {
         margin-top: 40px;
         padding-left: 0px;
         margin-bottom: 0px;
+        width: 500px;
     }
 
     .banner {
@@ -265,6 +270,7 @@ a:hover {
         margin-top: 10px;
         padding-left: 0px;
         margin-bottom: 0px;
+        width: 500px;
      }
     
     #backtop {
